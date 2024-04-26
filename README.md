@@ -1,6 +1,6 @@
-# pyBark
-Bark, But Remade in the text based coding language, python.
+# socialpy
+Simulator for a social media website.
 ## How to run:
-1. download `bark.py`
-2. run it using `cmd`
+1. download `main.py`
+2. run it using `cmd` or `vscode`
 3. enjoy!
