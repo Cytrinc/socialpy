@@ -1,16 +1,21 @@
 # cytrinc 0.0.2
 # this is tested in vscode
 
+line = "------------------------------------------------------------"
+
+print(line)
 print("welcome to cytrinc")
 
 while True:
- name = input("type a name: ")
+ com = input("type a command: ")
 
- if name == "Mariocraft987" or name == "Qwertyytheartist":
-    print("Welcome back, " + name + "!")
- else name == "help":
-    print("")
+ if com == "login":
+   print("Logging in accounts is currently not available!")
+ elif com == "signin":
+    print("Account making is currently not available!")
+ elif com == "help":
+    print(line)
+    print("'signin' - Make an account")
+    print("'login' - login into an account")
  else:
-    print("Hello, " + name)
-    print("You must have a valid account.")
-    print("Hint: type /help for instructions")
+    print("'" + com + "' is not a valid command")
